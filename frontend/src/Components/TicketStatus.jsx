@@ -34,7 +34,7 @@ export default function TicketStatus(props)
     <>
     {
     props.size == "small" ?
-    <div className={`text-center px-1 py-2 rounded`} style={{backgroundColor: statusColor,color: textColor,minWidth:"25%",width:"80px"}}>
+    <div className={`text-center px-1 py-2 rounded`} style={{backgroundColor: statusColor,color: textColor,minWidth:"25%",width:"90px"}}>
             <span className="fw-bold">{props.status}</span>
         </div>
     :
