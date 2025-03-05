@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+.admin-link{
+    color: #bdc7cf;
+}
+
+.chatBox{
+    overflow: auto;
+}
+
+.admin-link:hover{
+    background-color: #bdc7cf;
+    color: #343a40;
+    cursor: pointer;
+}
+.admin-link{
+    transition: 0.5s;
+}
+
+.admin-link-active{
+    background-color: #bdc7cf;
+    color: #343a40;
+    transition: 0.5s;
+}
+
+.admin-link-active:hover{
+    background-color: transparent;
+    color: #bdc7cf;
+}
+
+
+.clickable{
+    cursor: pointer;
+}
+
+.zoom-icon
+{
+    transition: 0.5s;
+}
+
+.zoom-icon:hover
+{
+    background-color: black;
+    color: #0d6efd;
+    transition: 0.5s;
+}
+.ticketContainer{
+    transition: 0.5s;
+}
+
+.ticketContainer:hover{
+    transform: scale(1.1);
+
+}
